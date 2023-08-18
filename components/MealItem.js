@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     margin: 16,
     borderRadius: 8,
     overflow: Platform.OS === "android" ? "hidden" : "visible",
-    backgroundColor: "white",
+    backgroundColor: "#ebf1fc",
     elevation: 4,
     shadowColor: "black",
     shadowOpacity: 0.25,
@@ -60,6 +60,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     fontSize: 18,
     margin: 8,
+    color: "#000",
   },
   details: {
     flexDirection: "row",
@@ -70,5 +71,6 @@ const styles = StyleSheet.create({
   detailItem: {
     marginHorizontal: 4,
     fontSize: 12,
+    color: "#000",
   },
 });
